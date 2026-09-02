@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ONE 8 — Sports & Fashion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/home/saksham/ONE_8_sports_fashion_website/style.css">
+</head>
+<body>
+<div class="cursor"></div>
+<div class="noise"></div>
+
+<header class="header">
+  <a class="logo" href="#">ONE 8<span>.</span></a>
+  <nav class="nav">
+    <a href="#sports">Sports</a><a href="#drops">Drops</a><a href="#stories">Stories</a><a href="#newsletter">Join</a>
+  </nav>
+  <button class="menu-btn" aria-label="Open menu">☰</button>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="orb orb1"></div><div class="orb orb2"></div>
+  <div class="hero-copy reveal">
+    <p class="eyebrow">SPORT / FASHION / CULTURE</p>
+    <h1>MOVE<br><em>DIFFERENT.</em></h1>
+    <p class="lead">A kinetic digital magazine for the athletes, creators and style leaders shaping what comes next.</p>
+    <div class="actions"><a class="btn btn-primary" href="#drops">Explore the drop <span>↗</span></a><a class="text-link" href="#sports">See the action ↓</a></div>
+  </div>
+  <div class="hero-visual reveal">
+    <div class="visual-ring"></div>
+    <div class="shoe">
+      <div class="shoe-sole"></div><div class="shoe-body"></div><div class="shoe-stripe"></div><div class="shoe-lace l1"></div><div class="shoe-lace l2"></div>
+    </div>
+    <div class="floating-tag tag1">AIR / 01</div>
+    <div class="floating-tag tag2">LIMITLESS</div>
+    <div class="scroll-note">SCROLL TO EXPLORE ↓</div>
+  </div>
+</section>
+
+<section class="ticker"><div class="ticker-track">PLAY HARD • DRESS LOUD • BREAK ROUTINES • RUN THE CITY • PLAY HARD • DRESS LOUD • BREAK ROUTINES • RUN THE CITY • </div></section>
+
+<section class="section" id="sports">
+  <div class="section-head reveal"><div><p class="eyebrow">01 / THE ARENA</p><h2>SPORTS<br><span>IN MOTION.</span></h2></div><p class="section-intro">From the court to the street, follow the energy behind the game.</p></div>
+  <div class="sports-grid">
+    <article class="sport-card card-football reveal"><div class="card-content"><span>01</span><h3>FOOTBALL</h3><p>Speed. Pressure. Glory.</p><a href="#">Explore →</a></div></article>
+    <article class="sport-card card-basketball reveal"><div class="card-content"><span>02</span><h3>BASKETBALL</h3><p>Built for the next play.</p><a href="#">Explore →</a></div></article>
+    <article class="sport-card card-running reveal"><div class="card-content"><span>03</span><h3>RUNNING</h3><p>Find another gear.</p><a href="#">Explore →</a></div></article>
+  </div>
+</section>
+
+<section class="marquee-image"><div class="giant-text">NO OFF DAYS</div><div class="runner-silhouette">◢</div></section>
+
+<section class="section drops" id="drops">
+  <div class="section-head reveal"><div><p class="eyebrow">02 / NEW SEASON</p><h2>THE<br><span>DROP.</span></h2></div><button class="filter-btn" data-filter="all">ALL / 2026</button></div>
+  <div class="products">
+    <article class="product reveal" data-cat="shoes"><div class="product-art art-shoe"><span class="badge">NEW</span><div class="mini-shoe"></div></div><div class="product-meta"><div><h3>ONE 8 RUSH X1</h3><p>Performance Runner</p></div><strong>₹8,999</strong></div></article>
+    <article class="product reveal" data-cat="apparel"><div class="product-art art-jacket"><span class="badge">01</span><div class="jacket"></div></div><div class="product-meta"><div><h3>STORM TRACK JACKET</h3><p>Technical Shell</p></div><strong>₹5,499</strong></div></article>
+    <article class="product reveal" data-cat="apparel"><div class="product-art art-tee"><span class="badge">HOT</span><div class="tee"></div></div><div class="product-meta"><div><h3>CORE OVERSIZED TEE</h3><p>Heavyweight Cotton</p></div><strong>₹1,799</strong></div></article>
+    <article class="product reveal" data-cat="shoes"><div class="product-art art-high"><span class="badge">02</span><div class="high-top"></div></div><div class="product-meta"><div><h3>ONE 8 STREET HI</h3><p>Urban Court Shoe</p></div><strong>₹6,999</strong></div></article>
+  </div>
+</section>
+
+<section class="feature" id="stories">
+  <div class="feature-photo"><div class="grid-lines"></div><div class="feature-label">VOL. 04<br>THE ATHLETE<br>AS ICON</div></div>
+  <div class="feature-copy reveal"><p class="eyebrow">03 / FEATURE</p><h2>STYLE IS<br><span>A SPORT.</span></h2><p>Performance gear has escaped the track. Discover the silhouettes, materials and attitudes redefining everyday movement.</p><a class="btn btn-primary" href="#">Read the story <span>↗</span></a></div>
+</section>
+
+<section class="newsletter" id="newsletter">
+  <div class="reveal"><p class="eyebrow">04 / JOIN THE MOVEMENT</p><h2>STAY<br><em>IN MOTION.</em></h2><p>Weekly drops, sports stories and culture — straight to your inbox.</p>
+  <form id="signup"><input type="email" placeholder="Email address" required><button type="submit">JOIN ↗</button></form><small id="form-message"></small></div>
+</section>
+</main>
+
+<footer><a class="logo" href="#">ONE 8<span>.</span></a><p>Sports / Fashion / Culture</p><p>© 2026 ONE 8 Studio</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
